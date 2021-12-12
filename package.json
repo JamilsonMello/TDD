@@ -1,0 +1,15 @@
+{
+  "name": "TDD",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "tsc && jest ./dist",
+	  "coverage": "tsc && jest ./dist --coverage"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.3",
+    "jest": "^27.4.4",
+    "typescript": "^4.5.3"
+  }
+}
